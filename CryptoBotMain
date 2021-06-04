@@ -1,0 +1,33 @@
+Public class ElonisStupid(){
+
+  Public void CryptoBot(){
+    if(TweetElonLikeBtc()){
+          Binance.OpenBTCLong()
+    }
+    if Else(TweetElonNotLikeBtc() ){
+         Binance.OpenBTCShort()
+    }
+    if Else(TweetElon.contains('Doge')){
+        Binance.OpenDOGELongx1500leverage()
+    }
+}
+
+
+
+public boolean TweetElonNotLikeBtc(String tweet){
+  if(tweet.contains('BTC is cool')){
+    return false
+  }
+ }
+ 
+ public boolean TweetElonLikeBtc(String tweet){
+  if(tweet.contains('BTC bad')){
+    return false
+  }
+    else{
+      return true
+    }
+ }
+
+
+}
